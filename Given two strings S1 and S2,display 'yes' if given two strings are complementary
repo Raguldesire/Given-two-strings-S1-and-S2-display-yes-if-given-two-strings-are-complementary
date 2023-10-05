@@ -1,0 +1,9 @@
+l=list(input())
+k=input()
+for i in k:
+  l.append(i)
+x=set(l)
+if len(x)==len(l):
+  print("yes")
+else:
+  print("no")
